@@ -1,18 +1,18 @@
 import React from 'react';
+import './App.css';
 import Header from './Header';
-import Videolist from './Videolist';
-import Footer from './Footer';
-import './App.css'; 
+import VideoList from './VideoList';
+import Greetings from './Greetings';
+import Footer from './Footer'; // Import Footer component
 
-function App() {
+const App = () => {
   return (
-    <>
-    
-      <Header  />
-      <Description  name="Cathy" />
-      <Footer />
-      </>
-    
+    <div
+      <Header />
+      <Greetings />
+      <VideoList />
+      <Footer /> 
+    </div>
   );
 }
 
