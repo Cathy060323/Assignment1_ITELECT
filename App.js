@@ -1,18 +1,18 @@
-import Header from "./Header.js";
-import Greetings from "./Greetings.js"
-import MainContent from "./MainContent.js";
-import Description from "./Videolist.js";
-import Footer from "./Footer.js";
+import React from 'react';
 import './App.css';
+import Header from './Header';
+import VideoList from './VideoList';
+import Greetings from './Greetings';
+import Footer from './Footer'; // Import Footer component
 
-function App() {
+const App = () => {
   return (
-    <>
-    <Header/>
-    <Greetings user="Alysa, Cathy, and Charina"/>
-    <MainContent/>
-    <Footer/>
-    </>
+    <div
+      <Header />
+      <Greetings />
+      <VideoList />
+      <Footer /> 
+    </div>
   );
 }
 
