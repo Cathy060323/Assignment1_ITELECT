@@ -1,13 +1,34 @@
 import React from 'react';
-import './App.css';
 
-function Videolist() {
-    return (
-        <section>
-            <h2>Title</h2>
-            <p>Stars</p>
-        </section>
-    );
+const VideoList = () => {
+  return (
+    <section className="video-grid">
+      <div className="video-card">
+        <img src="https://via.placeholder.com/200" alt="Video Thumbnail" />
+        <p className="video-title">Video Title 1</p>
+      </div>
+      <div className="video-card">
+        <img src="https://via.placeholder.com/200" alt="Video Thumbnail" />
+        <p className="video-title">Video Title 2</p>
+      </div>
+      <div className="video-card">
+        <img src="https://via.placeholder.com/200" alt="Video Thumbnail" />
+        <p className="video-title">Video Title 3</p>
+      </div>
+      <div className="video-card">
+        <img src="https://via.placeholder.com/200" alt="Video Thumbnail" />
+        <p className="video-title">Video Title 4</p>
+      </div>
+      <div className="video-card">
+        <img src="https://via.placeholder.com/200" alt="Video Thumbnail" />
+        <p className="video-title">Video Title 5</p>
+      </div>
+      <div className="video-card">
+        <img src="https://via.placeholder.com/200" alt="Video Thumbnail" />
+        <p className="video-title">Video Title 6</p>
+      </div>
+    </section>
+  );
 }
 
-export default Videolist;
+export default VideoList;
